@@ -383,7 +383,7 @@
 	              <formats>
 	                 <format>xml</format>
 	              </formats>	             
-	             </configuration>
+	             </configuration> 
 	           	           
 	      </plugin>
            
@@ -478,10 +478,15 @@
 	     	   <groupId>org.codehaus.mojo</groupId>
 	    	   <artifactId>cobertura-maven-plugin</artifactId>
 	           <version>2.7</version>
-
-	           	           
-	      </plugin>
-	      
+               
+            </plugin>
+	         
+	         
+		      <plugin>
+	        <groupId>org.codehaus.mojo</groupId>
+	        <artifactId>javancss-maven-plugin</artifactId>
+	        <version>2.1</version>
+   		   </plugin>
           
            
         </plugins>
